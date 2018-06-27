@@ -49,11 +49,15 @@ a:hover {
     padding-bottom: 2%;
 }
 
+#nome {
+    padding-right: 5%;
+}
+
 .pdf {
     background: #DA251C;
     color: white;
     border-radius: 50%;
-    margin-bottom: 5%;
+    margin: 0 2% 0 0;
 }
 
 .pdf:hover {
