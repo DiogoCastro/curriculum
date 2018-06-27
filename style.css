@@ -1,11 +1,35 @@
-.msg { padding: 10px; background: #222; position: relative; }
-.msg h1 { color: #fff;  }
-.msg a { margin-left: 20px; background: #408814; color: white; padding: 4px 8px; text-decoration: none; }
-.msg a:hover { background: #266400; }
-
 body { 
     font-family: 'Open Sans', sans-serif; 
     color: #444; 
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 152%
+}
+
+h3, h4 {
+    font-size: 122%;
+    
+}
+
+p {
+    font-size: 100%; line-height: 18px; padding-right: 3em;
+}
+
+a {
+    color: #990003;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .contato {
@@ -13,25 +37,27 @@ body {
 }
 
 .corpo {
-    margin-top: 10%;
+    margin: 5% 0 5% 0;
     padding: 2% 5% 2% 5%;
     background: #f5f5f5;
     border: solid #999;
-    border-width: 8px 0 2px 0;
+    border-width: 8px 0 1px 0;
 }
 
 .divisor {
     border-bottom: 1px solid #ccc;
+    padding-bottom: 2%;
 }
 
-a#pdf {
-    display: block;
-    float: left;
-    background: #666;
+.pdf {
+    background: #DA251C;
     color: white;
-    padding: 6px 50px 6px 12px;
-    margin-bottom: 6px;
-    text-decoration: none;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.pdf:hover {
+    background-color: rgb(238, 68, 59);
 }
 
 a#pdf:hover {
@@ -39,7 +65,7 @@ a#pdf:hover {
 }
 
 .alinhar {
-    padding: 3% 0 2% 0;
+    padding: 3% 0 0 0;
 }
 
 p.aumentar {
@@ -51,52 +77,24 @@ p.aumentar span {
     color: #000
 }
 
-#inner { padding: 10px 80px; margin: 80px auto; background: #f5f5f5; border: solid #666; border-width: 8px 0 2px 0; }
-.yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+.divisor-habilidade {
+    border: solid rgb(199, 199, 199);
+    border-width: 0 2px 0 0;
+}
 
-/* //-- header, body, footer -- */
-#hd { margin: 2.5em 0 3em 0; padding-bottom: 1.5em; border-bottom: 1px solid #ccc }
-#hd h2 { text-transform: uppercase; letter-spacing: 2px; }
-#bd, #ft { margin-bottom: 2em; }
+.nota {
+    font-size: 0.7rem;
+    font-style: italic;
+}
 
-/* //-- footer -- */
-#ft { padding: 1em 0 5em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; }
-#ft p { margin-bottom: 0; text-align: center;   }
+#rodape {
+    padding: 3% 0 2% 0;
+    font-size: 70%;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
 
-/* //-- core typography and style -- */
-#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
-h2 { font-size: 152% }
-h3, h4 { font-size: 122%; }
-h1, h2, h3, h4 { color: #333; }
-p { font-size: 100%; line-height: 18px; padding-right: 3em; }
-a { color: #990003 }
-a:hover { text-decoration: none; }
-strong { font-weight: bold; }
-li { line-height: 24px; border-bottom: 1px solid #ccc; }
-.first h2 { font-style: italic; }
-.last { border-bottom: 0 }
-
-
-/* //-- section styles -- */
-
-
-.job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
-.job h4 { position: absolute; top: 0.35em; right: 0 }
-.job p { margin: 0.75em 0 3em 0; }
-
-.last { border: none; }
-.skills-list {  }
-.skills-list ul { margin: 0; }
-.skills-list li { margin: 3px 0; padding: 3px 0; }
-.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
-.talent { width: 32%; float: left }
-.talent h2 { margin-bottom: 6px; }
-
-#srt-ttab { margin-bottom: 100px; text-align: center;  }
-#srt-ttab img.last { margin-top: 20px }
-
-/* --// override to force 1/8th width grids -- */
-.yui-gf .yui-u{width:80.2%;}
-.yui-gf div.first{width:12.3%;}
-
-
+#rodape p {
+    margin-bottom: 0;
+    text-align: center;
+}
